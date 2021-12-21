@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/0822148d4d.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./style/stylemenu.css">
+    <title>Menu</title>
+</head>
+<body>
+    <div class="pagina3">
+        <header class="cabecalhoMenu">
+            <a id="linkAtivo" href="./index.html">Menu</a>
+        </header>
+        <section class="box">
+            <div class="titulo">
+                <h2 id="selecionado1" onclick="menuPizza()">Pizza</h2>
+                <h2 id="selecionado2">Pastel</h2>
+                <h2 id="selecionado3">Salgados</h2>
+                <h2 id="selecionado4">Açaí</h2>
+            </div>
+            <form id="forlumarioPizza">
+                <div class="produto1">
+                    <div class="pizza1">
+                        <input type="checkbox" id="alhoFrito" name="" value=" Alho Frito " onclick="adicionarPizza(23.99, this)">
+                        <label for="alhoFrito">alho frito<br>R$ 23,99</br></label>
+                    </div>
+                    <div class="pizza1">
+                        <input type="checkbox" id="" name="" value=" Bauru " onclick="adicionarPizza(23.99, this)">
+                        <label for="">bauru<br>R$ 23,99</br></label>
+                    </div>
+                    <div class="pizza1">
+                        <input type="checkbox" id="" name="" value=" Bahiana " onclick="adicionarPizza(23.99, this)">
+                        <label for="">bahiana<br>R$ 23,99</br></label>
+                    </div>
+                    <div class="pizza1">
+                        <input type="checkbox" id="" name="" value=" Brócolis " onclick="adicionarPizza(23.99, this)">
+                        <label for="">brócolis<br>R$ 23,99</br></label>
+                    </div>
+                    <div class="pizza1">
+                        <input type="checkbox" id="" name="" value=" Calabresa " onclick="adicionarPizza(23.99, this)">
+                        <label for="">calabresa<br>R$ 23,99</br></label>
+                    </div>
+                    <div class="pizza1">
+                        <input type="checkbox" id="" name="" value=" Catupiry " onclick="adicionarPizza(23.99, this)">
+                        <label for="">catupiry<br>R$ 23,99</br></label>
+                    </div>
+                    <div class="pizza1">
+                        <input type="checkbox" id="" name="" value=" Carne com Queijo " onclick="adicionarPizza(23.99, this)">
+                        <label for="">carne com queijo<br>R$ 23,99</br></label>
+                    </div>
+                    <div class="pizza1">
+                        <input type="checkbox" id="" name="" value=" Escarola " onclick="adicionarPizza(23.99, this)">
+                        <label for="">escarola<br>R$ 23,99</br></label>
+                    </div>
+                </div>
+                <div class="produto2">
+                    <div class="pizza2">
+                        <input type="checkbox" id="" name="" value=" Frango com Catupiry " onclick="adicionarPizza(23.99, this)">
+                        <label for="">frango com catupiry<br>R$ 23,99</br></label>
+                    </div>
+
+                    <div class="pizza2">
+                        <input type="checkbox" id="" name="" value=" Mussarela " onclick="adicionarPizza(23.99, this)">
+                        <label for="">mussarela<br>R$ 23,99</br></label>
+                    </div>
+
+                    <div class="pizza2">
+                        <input type="checkbox" id="" name="" value=" Marguerita " onclick="adicionarPizza(23.99, this)">
+                        <label for="">marguerita<br>R$ 23,99</br></label>
+                    </div>
+
+                    <div class="pizza2">
+                        <input type="checkbox" id="" name="" value=" Napolitana " onclick="adicionarPizza(23.99, this)">
+                        <label for="">napolitana<br>R$ 23,99</br></label>
+                    </div>
+
+                    <div class="pizza2">
+                        <input type="checkbox" id="" name="" value=" Portuguesa " onclick="adicionarPizza(23.99, this)">
+                        <label for="">portuguesa<br>R$ 23,99</br></label>
+                    </div>
+
+                    <div class="pizza2">
+                        <input type="checkbox" id="" name="" value=" Sertaneja " onclick="adicionarPizza(23.99, this)">
+                        <label for="">sertaneja<br>R$ 23,99</br></label>
+                    </div>
+
+                    <div class="pizza2">
+                        <input type="checkbox" id="" name="" value=" Toscana " onclick="adicionarPizza(23.99, this)">
+                        <label for="">toscana<br>R$ 23,99</br></label>
+                    </div>
+                </div>
+            </form>
+            
+        </section>
+        <footer>
+            <div class="total">
+                <h3 id="total">Total R$ 00,00</h3>
+            </div>
+            <a class="zap" target="_blank" href="https://api.whatsapp.com/send?phone=5511946080861&text=Ol%C3%A1%2C%20vim%20pelo%20site%20e%20gostaria%20de%20fazer%20um%20pedido!" onclick="enviarWhatsapp()">
+                <i class="fab fa-whatsapp-square"></i>
+            </a>
+            
+        </footer>
+    </div>
+    <script src="./menu.js/home.js"></script>
+</body>
+</html>

@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700;800;900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.pagina2{
+    height: 100vh;
+    background-color: rgba(228, 228, 228, 0.1);
+}
+
+.cabecalhoSobre{
+    height: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.textoPagina{
+    font-family: 'Orbitron', sans-serif;
+    font-size: 2rem;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+#linkAtivo{
+    text-decoration: underline solid 3px;
+    color: #C10E0E;
+}
+
+.box{
+    width: 885px;
+    height: 88%;
+    /* testar 88.6% */
+    margin: 0 auto;
+    margin-left: 29%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.titulo{
+    align-self: flex-end;
+    margin-right: 2%;
+}
+
+.titulo h1{
+    font-family: 'Orbitron', sans-serif;
+    font-size: 3.7rem;
+    color: #061112;
+    text-shadow: 5px 2px 5px #113337;
+}
+
+.textoSobre{
+    width: 609px;
+    height: 272px;
+    align-self: flex-end;
+    margin-right: 5%;
+}
+
+.texto2{
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.2rem;
+    color:#113337;
+}
+
+.tituloAcao{
+    align-self: flex-end;
+    margin-right: 10%;
+}
+
+.tituloAcao a{
+    font-family: 'Orbitron', sans-serif;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    font-weight:bolder;
+    color:#061112;
+    text-decoration: none;
+}
+
+.tituloAcao a:hover{
+    text-decoration: underline solid 3px;
+    color: #C10E0E;
+}
+
+.barraLatera2{
+    width: 415px;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background-color: #C10E0E;
+}
+
+.forno{
+    position: absolute;
+    left: 0;
+    top: 12%;
+    border-radius: 1%;
+}
